@@ -8,7 +8,6 @@ import {
 
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import View from './components/View'
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/view" render={(props) => <View {...props} />} />
         </Routes>
       </BrowserRouter>,
     </>
